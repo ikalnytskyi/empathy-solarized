@@ -25,7 +25,11 @@
 
 body {
     color: #93A1A1; /* Base1 */
-    background: #002B36; /* Base03 */
+    background: #00222B; /* BaseXX */
+}
+
+.chat-item {
+    box-shadow: 0px 0px 2px #839496; /* Base0 */
 }
 
 .incoming-item {

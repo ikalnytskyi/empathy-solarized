@@ -57,8 +57,8 @@
 }
 
 body {
-    font-size: 15px;
-    font-family: 'Ubuntu', 'DejaVu Sans', 'Verdana', sans-serif;
+    font-size: 14px;
+    font-family: 'Ubuntu Mono', 'DejaVu Sans', 'Verdana', sans-serif;
 }
 
 a {
@@ -79,19 +79,20 @@ a {
  */
 
 .chat-item {
+    margin: 6px 0px;
     padding: 10px 5px;
 }
 
 .chat-item .avatar {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 
 .chat-item .message .message-header {
     padding: 2px;
     border-bottom: 1px solid #657B83; /* Base00 */
-    font-family: 'DejaVu Serif', serif;
-    font-size: 0.8em;
+    font-size: 0.90em;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -112,24 +113,34 @@ a {
  * INCOMING ITEM STYLE
  */
 
+.chat-wrapper .incoming-item  {
+    margin-right: 48px;
+    border-radius: 0px 4px 4px 0px;
+}
+
 .incoming-item .avatar {
     float: left;
 }
 
 .incoming-item .message {
-    margin-left: 37px;
+    margin-left: 48px;
 }
 
 /*
  * OUTGOING ITEM
  */
 
+.chat-wrapper .outgoing-item  {
+    margin-left: 48px;
+    border-radius: 4px 0px 0px 4px;
+}
+
 .outgoing-item .avatar {
     float: right;
 }
 
-.outgoing-item > .message {
-    margin-right: 37px;
+.outgoing-item .message {
+    margin-right: 48px;
 }
 
 
@@ -145,12 +156,20 @@ a {
     padding: 5px;
 }
 
+
+.status .message .message-header {
+    border: none;
+}
+
 .status .time {
     border-bottom: 1px solid #586E75;
     margin-bottom: 3px;
+    float: none;
+    display: block;
+    text-align: right;
 }
 
-.status h4 {
+.status .content {
     font-size: 1em;
     font-weight: normal;
     color: #B58900; /* Yellow */
