@@ -1,0 +1,41 @@
+/*
+ * Copyright 2012 Igor Kalnitsky <igor@kalnitsky.org>
+ *
+ * This file is part of Solarized Empathy.
+ *
+ * Solarized Empathy is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Solarized Empathy is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Solarized Empathy.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@import url("../main.css");
+
+/*
+ * The Dark variant of Solarized.
+ */
+
+body {
+    color: #93A1A1; /* Base1 */
+    background: #002B36; /* Base03 */
+}
+
+.incoming-item {
+    background: #002B36; /* Base03 */
+}
+
+.outgoing-item {
+    background: #073642; /* Base02*/
+}
+
+.status {
+    background: #EEE8D5; /* Base2 */
+}

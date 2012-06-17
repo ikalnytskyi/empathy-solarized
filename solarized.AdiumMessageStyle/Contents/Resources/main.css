@@ -1,0 +1,157 @@
+/*
+ * Copyright 2012 Igor Kalnitsky <igor@kalnitsky.org>
+ *
+ * This file is part of Solarized Empathy.
+ *
+ * Solarized Empathy is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Solarized Empathy is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Solarized Empathy.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*
+ * Solarized palette:
+ *
+ * => Background Tones:
+ *
+ *      Base03:     #002B36 | rgb(  0,  43,  54)
+ *      Base02:     #073642 | rgb(  7,  54,  66)
+ *                          |
+ *      Base2:      #EEE8D5 | rgb(238, 232, 213)
+ *      Base3:      #FDF6E3 | rgb(253, 246, 227)
+ *
+ *
+ * => Content Tones:
+ *
+ *      Base01:     #586E75 | rgb( 88, 110, 117)
+ *      Base00:     #657B83 | rgb(101, 123, 131)
+ *                          |
+ *      Base0:      #839496 | rgb(131, 148, 150)
+ *      Base1:      #93A1A1 | rgb(147, 161, 161)
+ *
+ *
+ * => Accent Colors:
+ *
+ *      Yellow:     #B58900 | rgb(181, 137,  0)
+ *      Orange:     #CB4B16 | rgb(203,  75,  22)
+ *      Red:        #DC322F | rgb(220,  50,  47)
+ *      Magenta:    #D33682 | rgb(211,  54, 130)
+ *      Violet:     #6C71C4 | rgb(108, 113, 196)
+ *      Blue:       #268BD2 | rgb( 38, 139, 210)
+ *      Cyan:       #2AA198 | rgb( 42, 161, 152)
+ *      Green:      #859900 | rgb(133, 153,   0)
+ */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Ubuntu', 'DejaVu Sans', 'Verdana', sans-serif;
+}
+
+a {
+    color: #CB4B16; /* Orange */
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/*
+ * GENERAL
+ */
+
+.chat-item {
+    padding: 10px 5px;
+}
+
+.chat-item .avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.chat-item .message .message-header {
+    padding: 2px;
+    border-bottom: 1px solid #657B83; /* Base00 */
+    font-family: 'DejaVu Serif', serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.chat-item .message .message-header .time {
+    float: right;
+    color: #93A1A1; /* Base1 */
+}
+
+.chat-item .message .message-header .sender {
+    color: #859900;
+}
+
+.chat-item .message .content {
+    padding: 5px 2px 2px;
+}
+
+/*
+ * INCOMING ITEM STYLE
+ */
+
+.incoming-item .avatar {
+    float: left;
+}
+
+.incoming-item .message {
+    margin-left: 37px;
+}
+
+/*
+ * OUTGOING ITEM
+ */
+
+.outgoing-item .avatar {
+    float: right;
+}
+
+.outgoing-item > .message {
+    margin-right: 37px;
+}
+
+
+/*
+ * STATUS
+ */
+
+.status {
+    font-size: 0.9em;
+    border-radius: 3px;
+    border-color: #586E75;
+    margin: 5px;
+    padding: 5px;
+}
+
+.status .time {
+    border-bottom: 1px solid #586E75;
+    margin-bottom: 3px;
+}
+
+.status h4 {
+    font-size: 1em;
+    font-weight: normal;
+    color: #B58900; /* Yellow */
+}
