@@ -38,6 +38,12 @@ body {
     box-shadow: 0px 0px 2px #657B83; /* Base00 */
 }
 
+.chat-item .content.inserted {
+    margin: 4px auto;
+    padding: 4px auto;
+    border-top: 1px solid #EEE8D5;
+}
+
 .incoming-item {
     background: #F8F2DE;
 }

@@ -13,13 +13,5 @@ Installation
 #. Select solarized theme in ``Edit -> Preferences -> Themes``.
 
 
-TODO
-----
-
-#. Change ``status`` colorscheme.
-#. Change selection color.
-#. Correct light theme.
-
-
 .. _Empathy IM: http://live.gnome.org/Empathy
 .. _Solarized palette: http://ethanschoonover.com/solarized
