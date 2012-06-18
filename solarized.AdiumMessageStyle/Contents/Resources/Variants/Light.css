@@ -25,7 +25,13 @@
 
 body {
     color: #586E75; /* Base01 */
-    background: #FDFFEE; /* BaseXX */
+    background: #EEE8D5; /* Base2 */
+}
+
+::selection {
+    color: #FDF6E3; /* Base3 */
+    background: #657B83; /* Base00 */
+    text-shadow: none;
 }
 
 .chat-item {
@@ -33,7 +39,7 @@ body {
 }
 
 .incoming-item {
-    background: #EEE8D5; /* Base2 */
+    background: #F8F2DE;
 }
 
 .outgoing-item {
@@ -41,5 +47,9 @@ body {
 }
 
 .status {
-    background: #073642; /* Base02 */
+    background: #92A0A0; /* Base1 */
+}
+
+.status .time {
+    border-bottom: 1px solid #586E75; /* Base01 */
 }

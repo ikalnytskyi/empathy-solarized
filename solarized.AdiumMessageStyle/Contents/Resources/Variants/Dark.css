@@ -28,6 +28,12 @@ body {
     background: #00222B; /* BaseXX */
 }
 
+::selection {
+    color: #002B36; /* Base03 */
+    background: #93A1A1; /* Base1 */
+    text-shadow: none;
+}
+
 .chat-item {
     box-shadow: 0px 0px 2px #839496; /* Base0 */
 }
@@ -41,5 +47,9 @@ body {
 }
 
 .status {
-    background: #EEE8D5; /* Base2 */
+    background: #586E75; /* Base01 */
+}
+
+.status .time {
+    border-bottom: 1px solid #92A0A0; /* Base1 */
 }

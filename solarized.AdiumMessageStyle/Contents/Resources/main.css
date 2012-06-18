@@ -58,7 +58,7 @@
 
 body {
     font-size: 14px;
-    font-family: 'Ubuntu Mono', 'DejaVu Sans', 'Verdana', sans-serif;
+    font-family: 'Ubuntu', 'DejaVu Sans', 'Verdana', sans-serif;
 }
 
 a {
@@ -152,8 +152,9 @@ a {
     font-size: 0.9em;
     border-radius: 3px;
     border-color: #586E75;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
+    color: #FDF6E3; /* Base3 */
 }
 
 
@@ -162,15 +163,14 @@ a {
 }
 
 .status .time {
-    border-bottom: 1px solid #586E75;
     margin-bottom: 3px;
     float: none;
     display: block;
     text-align: right;
+    color: #EEE8D5 !important; /* Base2 */
 }
 
 .status .content {
     font-size: 1em;
     font-weight: normal;
-    color: #B58900; /* Yellow */
 }
