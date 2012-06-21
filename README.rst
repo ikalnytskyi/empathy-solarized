@@ -1,7 +1,7 @@
-Solarized Empathy
+Empathy Solarized
 =================
 
-**Solarized Empathy** is an conversation theme for `Empathy IM`_ client based
+**Empathy Solarized** is an conversation theme for `Empathy IM`_ client based
 on `Solarized palette`_.
 
 The theme supports both sides of the Force:
