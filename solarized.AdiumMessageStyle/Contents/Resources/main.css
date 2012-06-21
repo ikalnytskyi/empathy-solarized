@@ -58,7 +58,7 @@
 
 body {
     font-size: 14px;
-    font-family: 'Ubuntu', 'DejaVu Sans', 'Verdana', sans-serif;
+    font-family: 'DejaVu Sans', 'Ubuntu', 'Droid Sans','Verdana', sans-serif;
 }
 
 a {
@@ -92,7 +92,6 @@ a {
     padding: 2px;
     border-bottom: 1px solid #657B83; /* Base00 */
     font-size: 0.90em;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -103,6 +102,7 @@ a {
 
 .chat-item .message .message-header .sender {
     color: #859900;
+    font-weight: bold;
 }
 
 .chat-item .message .content {
