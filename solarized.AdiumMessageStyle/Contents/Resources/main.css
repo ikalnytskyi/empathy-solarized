@@ -56,11 +56,6 @@
     padding: 0px;
 }
 
-body {
-    font-size: 14px;
-    font-family: 'DejaVu Sans', 'Ubuntu', 'Droid Sans','Verdana', sans-serif;
-}
-
 a {
     color: #CB4B16; /* Orange */
 }
@@ -173,4 +168,8 @@ a {
 .status .content {
     font-size: 1em;
     font-weight: normal;
+}
+
+.avatar[src*="buddy_icon"]{
+	display: none;
 }
